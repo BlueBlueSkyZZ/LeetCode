@@ -7,7 +7,7 @@ public class LC_Offer_53 {
         int count = 0;
         while (start <= end) {
             if (nums[mid] == target) {
-                //TODO left and right search
+                //left and right search
                 start = mid - 1;
                 end = mid + 1;
                 count++;
